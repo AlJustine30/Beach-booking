@@ -14,10 +14,11 @@
 
     <style>
         .hero-gradient {
-            background: linear-gradient(rgba(0, 0, 0, 0.3),
-                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'));
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
             background-position: center;
+            background-repeat: no-repeat;
         }
         .btn-primary {
             background-color: #0ea5e9;
@@ -41,6 +42,7 @@
             transition: all 0.3s ease;
             background-color: white;
             border: 1px solid #0ea5e9;
+            border-radius: 0.75rem;
         }
         .feature-card:hover {
             transform: translateY(-5px);
